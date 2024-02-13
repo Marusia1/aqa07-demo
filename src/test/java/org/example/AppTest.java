@@ -10,6 +10,23 @@ public class AppTest {
 
         Assertions.assertTrue(true);
     }
+    @Test
+    public void firstTest(){
+        Assertions.assertTrue(true);
+    }
+    @Test
+    public void secondTest(){
+        Assertions.assertFalse(false);
+    }
+    @Test
+    public void thirdTest() {
+        Assertions.assertFalse(false);
+    }
+    @Test
+    public void fourthTest() {
+        Assertions.assertNull(0);
+    }
+
 
 }
 
